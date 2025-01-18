@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(214, 214, 85);
+}
+
+
+button{
+    font-size: 40px;
+    padding: 10px;
+    background-color: Black;
+    color: white;
+    text-decoration: none; 
+    border: 2px solid blue;
+    border-radius: 15px;
+
+    /* too align item in center -> */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover{
+    color: orange;
+    background-color: white;
+    border: 2px  solid orange;
+}
+
+.Link-btn{
+    background-color: rgb(47, 154, 248);
+    padding: 120px;
+}
+
+.Story{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Linkers{
+    margin: 20px;
+}
+
+
+.links{
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: rgb(246, 6, 6);
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.links:hover{
+    color: white;
+    background-color: orange;
+    transform: scale(1.1);
+}
+
+
+.site-btn{
+
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(28, 184, 215);
+    color: white;
+    text-decoration: none; 
+    border: 2px solid rgb(7, 232, 41);
+    border-radius: 10px;
+
+    /* too align item in center -> */
+    /* position: absolute; */
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.site-btn:hover{
+    font-size: 22px;
+    background-color: white;
+    color: rgb(28, 184, 215);
+    transform: scale(1.1);
+}
+
+.site-btn:active{
+    color: red;
+    background-color: yellow;
+}
+
+
+
+.site-Stories{
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.site-para{
+    display:inline-block;
+}
+
+
