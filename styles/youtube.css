@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #40679E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 40px;
+    width: 500px;
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn{
+        width: 400px;
+        height: 60px;
+        border: 3px solid #315cfd;
+        border-radius: 15px;
+        transition: all 0.3s;
+        cursor: pointer;
+        background: white;
+        font-size: 1.5em;
+        font-weight: 550;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 38%;
+        margin-bottom: 10px;
+}
+.btn:hover {
+        background: #315cfd;
+        color: white;
+        font-size: 1.8em;
+      }
+
+.container{
+    background-color: palevioletred;
+    padding:5px;
+}
+
+
+body {
+    background-color: #fff;
+    color: #000;
+  }
+
+h1{
+  color: #F4F6FF;
+  background-color: #4F8A8B;
+  border: 2px solid salmon;
+  border-radius: 15px;
+
+}
+
+/* Ted-Talk Section Begins */
+
+
+.Ted-Talk{
+  background-color: rgb(236, 236, 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 10px ;
+}
+
+
+iframe{
+  border: 2px solid rgb(235, 23, 182);
+  border-radius: 10px;
+  margin: 40px;
+  width: 500px;
+  display: inline;
+}
+
+
+
+.Ted-Talk-Heading{
+  text-align: center;
+  background-color: orange;
+  border: 2px solid white;
+}
+
+.Ted-Talk-btn{
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgb(32, 136, 239);
+}
+
+.Ted-Talk-btn:hover{
+  cursor: pointer;
+}
+
+.Ted-content{
+  display: flex;
+  background-color: grey;
+}
+
+.videos{
+  border: 2px solid rgba(25, 24, 24, 0.91);
+  background-color: gray;
+}
+
+
+.text1{
+  padding-top: 100px;
+  width: 100%;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.ted-btn{
+  font-size: 18px;
+  padding: 5px;
+  width: 200px;
+  border: 2px solid rgb(226, 27, 150);
+  border-radius: 10px;
+  color: white;
+  background-color: #1B3C73;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.ted-btn:hover{
+  color: #1B3C73;
+  background-color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Ted-Talk Section Ends */

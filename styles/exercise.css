@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sevillana&display=swap');
+
+
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Sofia;
+}
+
+body{
+    padding: 10px;
+    background-color: pink;
+
+}
+
+.Articles{
+    border: 2px solid rgb(197, 71, 71);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.Article_Heading{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.subheading{
+    background-color: rgb(189, 227, 66);
+    color: rgb(16, 13, 13);
+}
+
+
+li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+.btn{
+    background-color: aqua;
+    color: rgb(88, 57, 228);
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
